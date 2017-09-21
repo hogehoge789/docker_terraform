@@ -16,7 +16,6 @@ RUN set -x && \
 WORKDIR /etc/terraform
 ADD main.tf /etc/terraform/
 ADD terraform.tfvars /etc/terraform/
-
 RUN terraform init
 
 CMD [ "/bin/bash" ]

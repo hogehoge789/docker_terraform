@@ -1,2 +1,3 @@
 # アクセスキー情報を除外
 *.tfvars
+.terraform
