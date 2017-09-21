@@ -9,7 +9,7 @@ RUN set -x && \
     cd /usr/local/bin/ && \
     wget https://releases.hashicorp.com/terraform/0.10.6/terraform_0.10.6_linux_amd64.zip && \
     unzip terraform_0.10.6_linux_amd64.zip && \
-    export PATH=/bin/:/usr/local/bin/ && \
+    export PATH=$PATH:/usr/local/bin/&& \
     mkdir /etc/terraform
 
 # Terraform初期設定
