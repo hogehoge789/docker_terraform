@@ -1,4 +1,5 @@
-# アクセスキー情報を除外
 *.tfvars
 *.tfstate*
 .terraform
+*.ppk
+*.pub
